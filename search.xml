@@ -18,14 +18,20 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> 篮球 </tag>
+            
+        </tags>
+      
     </entry>
     
     
     
     <entry>
       <title>随笔</title>
-      <link href="/2023/08/03/%E8%99%8E%E6%89%91%E7%A5%9E%E8%AF%84/"/>
-      <url>/2023/08/03/%E8%99%8E%E6%89%91%E7%A5%9E%E8%AF%84/</url>
+      <link href="/2023/08/03/suibi/"/>
+      <url>/2023/08/03/suibi/</url>
       
         <content type="html"><![CDATA[<h2 id="随笔"><a href="#随笔" class="headerlink" title="随笔"></a>随笔</h2><h3 id="虎扑收集的评论"><a href="#虎扑收集的评论" class="headerlink" title="虎扑收集的评论"></a>虎扑收集的评论</h3><p>​我们总是容易用一种自虐的方式制造出一种痴情的假象来使得自己站在感情的道德制高点上，获得一种畸形的满足感和安全感。其实无论是雪夜去对方家楼下站会儿或者是冒着大雨给她送一杯奶茶什么的，自己回想起来往往觉得如乔峰大战聚贤庄、关羽千里走单骑一样壮怀激烈，而对于对方来说，一杯奶茶就是一杯奶茶，无法承载起你想要在上面寄托的山崩地裂的情怀。少年的时候，总是迫不及待地将自己的满腔爱意表达出来，而结果往往是陷入表演之中而不自知。所以两个人的记忆才会出现偏差，那些你觉得刻骨铭心的过去，对方往往没有同样的感觉，甚至茫然不知。</p><p>​成长的标志就是懂得克制自己。克制自己的情绪，克制自己的表演欲，甚至克制自己的喜欢。少年时候，喜欢一个人恨不能把她变成自己身体的一部分，她刚说冷，我这边心里已经结冰了，她说难过，我立马如丧考妣，比她还难过，唯恐无法将自己的爱意表达出来。而事实上，谁也无法承担起另一个人的价值寄托，只有做一个独立、有价值的人，才能真正学会去爱另一个人。也千万不要尝试改变另一个人，这注定是徒劳的。做自己就好，爱情的真谛在于相互的吸引、志趣相投的同行，而不是追逐和依附以及自我感动。</p><h3 id="关于三行诗"><a href="#关于三行诗" class="headerlink" title="关于三行诗"></a>关于三行诗</h3><p>人们总是这样<br>一边想起，一边忘记<br>你不理我我不怪你</p><p>我在梦里见过你<br>听风呼吸与月低语时吻你<br>海浪涌起霞光四溢时忘记</p><p>刚过去的十分钟<br>七分想你，三分忘记<br>不给自己一分后悔的余地</p><p>今天明天都给你<br>心意却藏在心底<br>像你不会理会的昨天，飘散在风里</p><p>我爱你的方式就像为你写诗<br>固执的押韵排比<br>偷偷的潜藏心意</p><h3 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h3><p>我所有的自负都来自我的自卑，<br>所有的英雄气概都来自于我内心的软弱，<br>所有的振振有词都因为心中满是怀疑。<br>我假装无情，其实是痛恨自己的深情。<br>我以为人生的意义在于四处游荡流亡，<br>其实只是掩饰至今没有找到愿意驻足的地方。</p><p>–《看不见的城市》 伊塔洛卡尔维诺</p><h3 id=""><a href="#" class="headerlink" title=""></a></h3>]]></content>
       
@@ -36,6 +42,37 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第一篇博客</title>
+      <link href="/2023/08/02/hello-world/"/>
+      <url>/2023/08/02/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -56,24 +93,11 @@
       </categories>
       
       
-    </entry>
-    
-    
-    
-    <entry>
-      <title>第一篇博客</title>
-      <link href="/2023/08/02/hello-world/"/>
-      <url>/2023/08/02/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 随笔 </category>
-          
-      </categories>
-      
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+        </tags>
       
     </entry>
     
