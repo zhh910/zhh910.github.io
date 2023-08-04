@@ -1645,6 +1645,88 @@ h6::before {
   pointer-events: none;
   z-index: -1;
 }
+body,
+html {
+  cursor: url("/mouse/01.cur"), auto !important;
+}
+img {
+  cursor: url("/mouse/15.cur"), auto !important;
+}
+a:hover {
+  cursor: url("/mouse/15.cur"), auto;
+}
+input:hover {
+  cursor: url("/mouse/15.cur"), auto;
+}
+button:hover {
+  cursor: url("/mouse/15.cur"), auto;
+}
+i:hover {
+  cursor: url("/mouse/15.cur"), auto;
+}
+#footer-wrap a:hover {
+  cursor: url("/mouse/02.cur"), auto;
+}
+#pagination .page-number:hover {
+  cursor: url("/mouse/02.cur"), auto;
+}
+#nav .site-page:hover {
+  cursor: url("/mouse/15.cur"), auto;
+}
+#nav-right {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -o-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-box-pack: end;
+  -moz-box-pack: end;
+  -o-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-lines: single;
+  -moz-box-lines: single;
+  -o-box-lines: single;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+.nav-fixed #nav {
+  -webkit-transform: translateY(58px) !important;
+  -moz-transform: translateY(58px) !important;
+  -o-transform: translateY(58px) !important;
+  -ms-transform: translateY(58px) !important;
+  transform: translateY(58px) !important;
+  -webkit-transform: translateY(58px) !important;
+  -moz-transform: translateY(58px) !important;
+  -ms-transform: translateY(58px) !important;
+  -o-transform: translateY(58px) !important;
+}
+#nav {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+#pagination {
+  width: 100%;
+  margin: auto;
+}
 @-moz-keyframes ccc {
   0% {
     -webkit-transform: rotate(0deg);
@@ -3344,13 +3426,6 @@ h1.page-title + .tag-cloud-list {
 }
 #post-comment .comment-wrap > div:nth-child(2) {
   display: none;
-}
-#footer {
-  position: relative;
-  background-color: #49b1f5;
-  background-attachment: scroll;
-  background-position: bottom;
-  background-size: cover;
 }
 #footer-wrap {
   position: relative;
@@ -6158,4 +6233,80 @@ blockquote.pullquote.right {
   z-index: 1000;
   display: none;
   background: rgba(0,0,0,0.6);
+}
+#local-search .search-dialog .local-search-box {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+}
+#local-search .search-dialog .local-search-box input {
+  padding: 5px 14px;
+  width: 100%;
+  outline: none;
+  border: 2px solid #49b1f5;
+  border-radius: 40px;
+  background: var(--search-bg);
+  color: var(--search-input-color);
+  -webkit-appearance: none;
+}
+#local-search .search-dialog .search-wrap {
+  display: none;
+}
+#local-search .search-dialog .local-search-hit-item {
+  position: relative;
+  padding-left: 24px;
+  line-height: 1.7;
+}
+#local-search .search-dialog .local-search-hit-item:hover:before {
+  border-color: var(--pseudo-hover);
+}
+#local-search .search-dialog .local-search-hit-item:before {
+  position: absolute;
+  top: 0.45em;
+  left: 0;
+  width: 0.5em;
+  height: 0.5em;
+  border: 3px solid #49b1f5;
+  border-radius: 0.5em;
+  background: transparent;
+  content: '';
+  line-height: 0.5em;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#local-search .search-dialog .local-search-hit-item a {
+  display: block;
+  color: var(--search-a-color);
+}
+#local-search .search-dialog .local-search-hit-item a:hover {
+  color: #49b1f5;
+}
+#local-search .search-dialog .local-search-hit-item .search-result-title {
+  font-weight: 600;
+}
+#local-search .search-dialog .local-search-hit-item .search-result {
+  margin: 0 0 8px;
+  word-break: break-word;
+}
+#local-search .search-dialog .search-result-list {
+  overflow-y: overlay;
+  margin: 0 -20px;
+  padding: 0 22px;
+  max-height: calc(80vh - 200px);
+}
+@media screen and (max-width: 768px) {
+  #local-search .search-dialog .search-result-list {
+    max-height: calc(var(--search-height) - 220px) !important;
+  }
+}
+#local-search .search-dialog .no-result + #local-search-stats-wrap {
+  display: none;
+}
+.search-keyword {
+  background: transparent;
+  color: #f47466;
+  font-weight: bold;
 }
